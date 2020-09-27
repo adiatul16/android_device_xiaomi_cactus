@@ -20,6 +20,9 @@ $(call inherit-product, device/xiaomi/cactus/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Boot animaton
+TARGET_BOOT_ANIMATION_RES := 720
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := cactus
 PRODUCT_NAME := lineage_cactus
